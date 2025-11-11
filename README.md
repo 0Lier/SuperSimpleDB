@@ -1,0 +1,41 @@
+# SuperSimpleDB
+A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage.
+
+- Works in Python 3.8 or higher.
+- Easy to use, no configuration needed.
+- Perfect for small apps.
+
+# Requirements
+The requirements to use this package:
+
+- Python 3.8 or higher
+- pip installed
+
+# Installation
+
+There are 2 ways to install this package:
+
+## 1. Using PyPI (Windows / Linux / Mac)
+1. Open your terminal, CMD, or PowerShell.
+2. Install the package with pip:
+```
+pip install ssdb
+```
+3. The package is ready to use!
+
+## 2. Manual installation (from source)
+1. Download the main branch ZIP from GitHub.
+2. Unzip the file.
+3. Open your terminal, CMD, or PowerShell.
+4. Navigate to the folder where you unzipped the source:
+```
+cd path/to/ssdb-source
+```
+5. Install the package using pip:
+```
+pip install .
+```
+6. The package is now installed and ready to use.
+
+
+You can also see the _[documentation](./DOCS.md)_

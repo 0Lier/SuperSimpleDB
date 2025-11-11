@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssdb"
+license = {text = "GPL-3.0-or-later"}
+readme = "README.md"
+version = "0.1.0"
+description = "A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage."
+authors = [{ name = "0Lier" }]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/0Lier/SuperSimplyDB"
+

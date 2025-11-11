@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+ssdb/__init__.py
+ssdb/main.py
+ssdb.egg-info/PKG-INFO
+ssdb.egg-info/SOURCES.txt
+ssdb.egg-info/dependency_links.txt
+ssdb.egg-info/top_level.txt
