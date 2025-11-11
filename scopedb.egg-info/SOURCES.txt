@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+scopedb/__init__.py
+scopedb/main.py
+scopedb.egg-info/PKG-INFO
+scopedb.egg-info/SOURCES.txt
+scopedb.egg-info/dependency_links.txt
+scopedb.egg-info/top_level.txt

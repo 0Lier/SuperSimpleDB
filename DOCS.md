@@ -4,15 +4,15 @@
 - - [Init](#Init)
 - - [globals](#globals)
 - - [scoped](#scoped)
-- File Structure
+- [File Structure](#file)
 ***
 ### Usage Examples
 <a id="usage"></a>
 ```py
-import ssdb
+import scopedb
 
 # 1. Initialize the database (you only do this once)
-db = ssdb.Init()
+db = scopedb.Init()
 print("Database ready in: " + db.project_path + "\\Database")
 print("\\n")
 
@@ -91,15 +91,15 @@ print(f"-> Alex's color is still: {db.scoped.get('Fav_Color', 'Alex')} (Still th
 
 Methods
 -
-**ssdb.Init()** (None) -> object: Database Handler
+**scopedb.Init()** (None) -> object: Database Handler
 <a id="Init"></a>
 *Initializes the database manager. It should be the first call when using the package, usually in the main file.*
 ```
-ssdb.Init()
+scopedb.Init()
 ```
 ***
 
-### ssdb.Init().globals
+### scopedb.Init().globals
 <a id="globals"></a>
 Methods
 > .get()
@@ -113,7 +113,7 @@ Methods
 > **string** *Current value of the variable*
 **key** *Name of the variable to retrieve*
 ```
-ssdb.Init().globals.get("VarName")
+scopedb.Init().globals.get("VarName")
 ```
 ***
 
@@ -123,7 +123,7 @@ ssdb.Init().globals.get("VarName")
 > **key** *Name of the variable to replace or add*
 **value** *New value*
 ```
-ssdb.Init().globals.set("VarName", "NewValue")
+scopedb.Init().globals.set("VarName", "NewValue")
 ```
 ***
 
@@ -132,10 +132,10 @@ ssdb.Init().globals.set("VarName", "NewValue")
 *Deletes the variable completely.*
 > **key** *Name of the variable to remove*
 ```
-ssdb.Init().globals.remove("VarName")
+scopedb.Init().globals.remove("VarName")
 ```
 
-### ssdb.Init().scoped
+### scopedb.Init().scoped
 <a id="scoped"></a>
 Methods
 > .get()
@@ -150,7 +150,7 @@ Methods
 **key** *Name of the variable to retrieve*
 **id** Identifier of the value to retrieve in the variable
 ```
-ssdb.Init().scoped.get("VarName", "id")
+scopedb.Init().scoped.get("VarName", "id")
 ```
 ***
 
@@ -161,7 +161,7 @@ ssdb.Init().scoped.get("VarName", "id")
 **id** Identifier of the value to replace or add in the variable
 **value** *New value*
 ```
-ssdb.Init().scoped.set("VarName", "id", "NewValue")
+scopedb.Init().scoped.set("VarName", "id", "NewValue")
 ```
 ***
 
@@ -171,10 +171,11 @@ ssdb.Init().scoped.set("VarName", "id", "NewValue")
 > **key** *Name of the variable where the identifier to be removed is located*
 **id** Identifier of the value to be removed in the variable
 ```
-ssdb.Init().scoped.remove("VarName", "id")
+scopedb.Init().scoped.remove("VarName", "id")
 ```
 ****
 ### File Structure
+<a id="file"></a>
 ```
 📁 Database
     ├─ 📁 globals
@@ -185,6 +186,6 @@ ssdb.Init().scoped.remove("VarName", "id")
 ```
 ***
 ### **License**
-[**SSDB - Super Simple Database**  
+[**scopedb - Scoped Database**  
 **Copyright (C) 2025 0Lier**  
 **Licensed under the GNU GPL v3.0**](./LICENSE.txt)

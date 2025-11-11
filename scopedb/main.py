@@ -1,4 +1,4 @@
-# SSDB - Super Simple Database
+# scopedb - Scoped Database
 # Copyright (C) 2025 0Lier
 # Licensed under the GNU GPL v3.0
 

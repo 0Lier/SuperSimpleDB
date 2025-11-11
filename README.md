@@ -1,4 +1,4 @@
-# SuperSimpleDB
+# ScopeDB
 A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage.
 
 - Works in Python 3.8 or higher.
@@ -19,7 +19,7 @@ There are 2 ways to install this package:
 1. Open your terminal, CMD, or PowerShell.
 2. Install the package with pip:
 ```
-pip install ssdb
+pip install scopedb
 ```
 3. The package is ready to use!
 
@@ -29,7 +29,7 @@ pip install ssdb
 3. Open your terminal, CMD, or PowerShell.
 4. Navigate to the folder where you unzipped the source:
 ```
-cd path/to/ssdb-source
+cd path/to/ScopeDB-source
 ```
 5. Install the package using pip:
 ```

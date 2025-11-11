@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ssdb",
+    name="scopedb",
     version="0.1.0",
     author="0Lier",
     description="A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage.",
@@ -10,5 +10,5 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     license="GPL-3.0-or-later",  
-    url="https://github.com/0Lier",  
+    url="https://github.com/0Lier/ScopeDB",  
 )

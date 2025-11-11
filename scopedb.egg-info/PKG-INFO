@@ -1,11 +1,11 @@
 Metadata-Version: 2.4
-Name: ssdb
+Name: scopedb
 Version: 0.1.0
 Summary: A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage.
-Home-page: https://github.com/0Lier
+Home-page: https://github.com/0Lier/ScopeDB
 Author: 0Lier
 License: GPL-3.0-or-later
-Project-URL: Homepage, https://github.com/0Lier/SuperSimplyDB
+Project-URL: Homepage, https://github.com/0Lier/ScopeDB
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
@@ -13,7 +13,7 @@ Dynamic: home-page
 Dynamic: license-file
 Dynamic: requires-python
 
-# SuperSimpleDB
+# ScopeDB
 A super simple, lightweight, and beginner-friendly database for bots, tools, and small apps that need quick file-based storage.
 
 - Works in Python 3.8 or higher.
@@ -34,7 +34,7 @@ There are 2 ways to install this package:
 1. Open your terminal, CMD, or PowerShell.
 2. Install the package with pip:
 ```
-pip install ssdb
+pip install scopedb
 ```
 3. The package is ready to use!
 
@@ -44,7 +44,7 @@ pip install ssdb
 3. Open your terminal, CMD, or PowerShell.
 4. Navigate to the folder where you unzipped the source:
 ```
-cd path/to/ssdb-source
+cd path/to/ScopeDB-source
 ```
 5. Install the package using pip:
 ```
